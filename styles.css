@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    width: auto;
+    height: 100vh;
+    background-image: url("assets/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.head {
+    margin-top: 181px;
+    width: 400px;
+    height: 400px;
+    background-color: #181A1CD6;
+    color: white;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 456px;
+    padding: 40px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 16px;
+    gap: 37px;
+}
+
+
+.logo {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
