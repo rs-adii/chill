@@ -1,81 +1,141 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="app.css" />
-  </head>
-  <body>
-    <header class="primary">
-      <nav class="navbar">
-        <img src="assets/Logo.png" />
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CHILL - Beranda</title>
+  <link rel="stylesheet" href="beranda.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <img src="assets/Logo.png" />
         <a href=""><p>Series</p></a>
         <a href=""><p>Film</p></a>
         <a href=""><p>Data Saya</p></a>
-        <img src="assets/profil.png" class="profil" />
-        <img src="assets/KeyboardArrowDown.png" />
-      </nav>
-    </header>
+        <div class="profil1"
+        <img src="assets/profil.png" />
+        <img src="assets/KeyboardArrowDown.png"/>
+  </div>
+  </header>
 
-    <section class="section-first">
-      <div class="section1">
-        <h1>Duty After School</h1>
-        <p>
-          Sebuah benda tak dikenal mengambil alih dunia. Dalam keputusasaan,
-          Departemen Pertahanan mulai merekrut<br />
-          lebih banyak tentara, termasuk siswa sekolah menengah. Mereka pun
-          segera menjadi pejuang garis depan dalam perang.
-        </p>
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <img src="assets/duty-after-school.png" alt="Duty After School" class="hero-bg">
+    <div class="hero-overlay">
+      <h2>Duty After School</h2>
+      <p>Ketegangan dan aksi pelajar bertahan hidup dari ancaman alien misterius.</p>
+      <div class="hero-buttons">
+        <button class="btn-primary">Tonton</button>
+        <button class="btn-secondary">+ Daftar Tonton</button>
       </div>
+    </div>
+  </section>
 
-      <div class="action">
-        <p>Mulai</p>
-        <img src="assets/UnstyledButton.svg" />
-        <img src="assets/18+.png" />
+  <!-- Section: Melanjutkan Tonton Film -->
+  <section class="film-section">
+    <h2>Melanjutkan Tonton Film</h2>
+    <div class="film-row">
+      <!-- Ulangi untuk setiap film -->
+      <div class="film-card">
+        <img src="assets/film1.png" alt="Film 1">
       </div>
-    </section>
-
-    <section class="section-second">
-      <h3>Melanjutkan Tonton Film</h3>
-      <div class="film">
-        <img src="assets/image1.png" />
-        <img src="assets/image2.png" />
-        <img src="assets/image3.png" />
-        <img src="assets/image4.png" />
+      <div class="film-card">
+        <img src="assets/film2.png" alt="Film 2">
       </div>
-    </section>
-
-    <section>
-      <h3>Top Rating Film dan Series Hari ini</h3>
-      <div>
-        <img src="assets/image5.png"/>
-        <img src="assets/image6.png"/>
-        <img src="assets/image7.png"/>
-        <img src="assets/image8.png"/>
-        <img src="assets/image9.png"/>
+      <div class="film-card">
+        <img src="assets/film3.png" alt="Film 3">
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section>
-      <h3>Film Trending</h3>
-      <div>
-
+  <!-- Section: Top Rating -->
+  <section class="film-section">
+    <h2>Top Rating Film dan Series Hari ini</h2>
+    <div class="film-row">
+      <div class="film-card">
+        <img src="assets/top1.png" alt="Top 1">
       </div>
-    </section>
-
-    <section>
-      <h3>Rilis Baru</h3>
-    </section>
-
-    <footer>
-      <div>
-
+      <div class="film-card">
+        <img src="assets/top2.png" alt="Top 2">
       </div>
-
-      <div>
-        
+      <div class="film-card">
+        <img src="assets/top3.png" alt="Top 3">
       </div>
-    </footer>
-  </body>
+    </div>
+  </section>
+
+  <!-- Section: Film Trending -->
+  <section class="film-section">
+    <h2>Film Trending</h2>
+    <div class="film-row">
+      <div class="film-card">
+        <img src="assets/trend1.png" alt="Trend 1">
+      </div>
+      <div class="film-card">
+        <img src="assets/trend2.png" alt="Trend 2">
+      </div>
+      <div class="film-card">
+        <img src="assets/trend3.png" alt="Trend 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: Rilis Baru -->
+  <section class="film-section">
+    <h2>Rilis Baru</h2>
+    <div class="film-row">
+      <div class="film-card">
+        <img src="assets/rilis1.png" alt="Rilis 1">
+      </div>
+      <div class="film-card">
+        <img src="assets/rilis2.png" alt="Rilis 2">
+      </div>
+      <div class="film-card">
+        <img src="assets/rilis3.png" alt="Rilis 3">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div>
+<img src="assets/Logo.png"/>  
+    </div>
+  <div class="genre">
+    <div>
+<h3>Genre</h3>
+    <p>Aksi</p>
+    <p>Anak anak</p>
+    <p>Anime</p>
+    <p>Britania</p>
+    </div>
+    <div>
+      <p>Drama</p>
+      <p>Fantasi Ilmiah & Fantasi</p>
+      <p>Kejahatan</p>
+      <p>KDrama</p>
+    </div>
+    <div>
+      <p>Komedi</p>
+      <p>Petualangan</p>
+      <p>Perang</p>
+      <p>Romantis</p>
+    </div>
+    <div>
+     <p>Sains & Alam</p>
+     <p>Thriller</p>
+    </div>
+    
+  </div>
+  <div>
+    <p>Bantuan</p>
+    <p>FAQ</p>
+    <p>Kontak Kami</p>
+    <p>Privasi</p>
+    <p>Syarat & Ketentuan</p>
+  </div>
+  </footer>
+
+</body>
 </html>
